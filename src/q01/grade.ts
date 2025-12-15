@@ -2,7 +2,7 @@ const input = process.argv[2];
 const point = Number(input)
 if (Number.isNaN(point)){
     console.log('Invalid Input');
-} else if (point < 0 || point > 100){
+} else if (point <= 0 || point > 100){
     console.log('Invalid Input');
 } else {
     if (point >= 80) {
