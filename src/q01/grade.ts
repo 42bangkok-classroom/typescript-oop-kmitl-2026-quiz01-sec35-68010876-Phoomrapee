@@ -13,7 +13,7 @@ if (Number.isNaN(point)){
         console.log('Grade is C')
     } else if (point >= 50) {
         console.log('Grade is D')
-    } else {
+    } else if (point >= 0) {
         console.log('Grade is F')
     }
 }
