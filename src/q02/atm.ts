@@ -22,7 +22,7 @@ if (Number.isNaN(balance) || Number.isNaN(amount)) {
 if (amount > balance) {
     console.log('Insufficient balance');
 } else if (amount > 5000) {
-    console.log('Exceeds limit');
+    console.log('Exceeds per-withdrawal limit');
 } else {
     console.log('Withdrawal approved');
 }
